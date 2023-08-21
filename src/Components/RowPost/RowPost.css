@@ -1,0 +1,30 @@
+.row{
+    margin-left: 20px;
+    color: #fff;
+}
+
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y:hidden ;
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.netflixorginals{
+    padding-top: 50px;
+}
+
+
+.poster{
+    max-height: 250px;
+    margin-right: 10px;
+
+}
+.smallposter{
+    max-height: 150px;
+    margin-right: 10px;
+    
+}
